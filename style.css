@@ -1,0 +1,41 @@
+
+
+h2.text-center {
+    padding-top: 100px;
+    alignment: center;i
+    width: 400px;
+    height: 300px;
+}
+
+div.insults {
+    width: auto;
+    height: auto;
+    background: rgb(85,98,143,0.3);
+    border-radius: 8px;
+}
+
+.copyright {
+    float: left;
+    padding-left: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.API {
+    float: right;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+
+div.logo {
+    float: left;
+}
+
+div.about {
+    float: right;
+}
