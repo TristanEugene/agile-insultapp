@@ -56,6 +56,9 @@ h2.text-center {
   font-family: 'Bellefair', serif; }
 
 #dailyinsult {
-  padding-top: 20px; }
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: 'Bellefair', serif;
+  font-size: 30px; }
 
 /*# sourceMappingURL=mainStyle.css.map */
