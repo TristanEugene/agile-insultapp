@@ -1,11 +1,19 @@
+h1 {
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
 h2.text-center {
-    padding-top: 100px;
+    padding-top: 90px;
     alignment: center;
     width: 400px;
     height: 300px;
 }
 
 .insults {
+    font-family: 'Bellefair', serif;
+    font-size: 40px;
     width: auto;
     height: auto;
     background: rgb(85,98,143,0.3);
@@ -13,14 +21,16 @@ h2.text-center {
 }
 
 .copyright {
+    font-family: 'Rajdhani', sans-serif;
     float: left;
-    padding-left: 30px;
+    padding-left: 30px;git
     padding-top: 20px;
     padding-bottom: 20px;
 
 }
 
 .API {
+    font-family: 'Rajdhani', sans-serif;
     float: right;
     padding-right: 30px;
     padding-top: 20px;
