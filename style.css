@@ -1,13 +1,11 @@
-
-
 h2.text-center {
     padding-top: 100px;
-    alignment: center;i
+    alignment: center;
     width: 400px;
     height: 300px;
 }
 
-div.insults {
+.insults {
     width: auto;
     height: auto;
     background: rgb(85,98,143,0.3);
@@ -27,15 +25,22 @@ div.insults {
     padding-right: 30px;
     padding-top: 20px;
     padding-bottom: 20px;
-
 }
 
-
-
-div.logo {
-    float: left;
+.left {
+    width: 60%;
+    height: 250px;
+    background: red;
 }
 
-div.about {
-    float: right;
+.right {
+    width: 80%;
+    height: 250px;
+    background: red;
+}
+
+.insult-card {
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+    /* margin-bottom: 10px;  Added */
 }
