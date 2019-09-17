@@ -10,6 +10,13 @@
 
         gtag('config', 'UA-148191248-1', { 'optimize_id': 'GTM-5VSH686'});
     </script>
+    <!-- Anti-flicker snippet (recommended)  -->
+    <style>.async-hide { opacity: 0 !important} </style>
+    <script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+        h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+        (a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+    })(window,document.documentElement,'async-hide','dataLayer',4000,
+        {'GTM-TBKQJJL':true});</script>
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
             new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -45,42 +52,40 @@
         </button>
     </nav>
 
-    <section class="container">
+    <section>
         <div class="row d-flex flex-column bg-info">
             <h1 class="text-center pt-5 pt-4">Make The World Great Again</h1>
         </div>
     </section>
 
-    <section class="container">
+    <section>
         <div class="row d-flex flex-column bg-dark">
             <p class="text-center" id="dailyinsult">Your Daily Insult</p>
         </div>
     </section>
 
-    <section class="container">
+    <section>
         <div class="row d-flex flex-column bg-success">
-            <div class="insults">
-                <h2 class="text-center" id="insult"></h2>
+            <div class="insult-card" style="width:800px">
+                <div class="insults">
+                    <h2 class="text-center">Insult</h2>
+                </div>
             </div>
         </div>
     </section>
 
-    <section class="container row d-flex flex-column m-auto bg-danger">
+    <section class="row d-flex flex-column m-auto bg-danger">
         <div class="text-center">
             <div class=subscribe>
                 <label for="input"></label>
-                <input type="text" name="E-mail" placeholder="E-mail" id="input" />
+                <input id="input" name="E-mail" placeholder="E-mail" type="text" />
                 <button id="" type="button">Subscribe</button>
             </div>
         </div>
     </section>
 
-
-
-
-
-    <footer>
-        <div>
+    <footer class="site-footer">
+        <div id="footer-content">
             <p class="copyright">© 2019
 
                 <!-- href: link invoegen -->
