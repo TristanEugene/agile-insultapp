@@ -1,11 +1,19 @@
+h1 {
+    font-family: 'Bellefair', serif;
+    font-size: 60px;
+    padding-bottom: 30px;
+}
+
 h2.text-center {
-    padding-top: 100px;
+    padding-top: 90px;
     alignment: center;
     width: 400px;
     height: 300px;
 }
 
 .insults {
+    font-family: 'EB Garamond', serif;
+    font-size: 40px;
     width: auto;
     height: auto;
     background: rgb(85,98,143,0.3);
@@ -13,6 +21,7 @@ h2.text-center {
 }
 
 .copyright {
+    font-family: Bellefair;
     float: left;
     padding-left: 30px;
     padding-top: 20px;
@@ -21,6 +30,7 @@ h2.text-center {
 }
 
 .API {
+    font-family: Bellefair;
     float: right;
     padding-right: 30px;
     padding-top: 20px;
@@ -40,7 +50,7 @@ h2.text-center {
 }
 
 .insult-card {
-    margin: 0 auto; /* Added */
+    margin: 0 auto;Added */
     float: none; /* Added */
     /* margin-bottom: 10px;  Added */
 }
