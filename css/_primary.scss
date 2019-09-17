@@ -2,7 +2,24 @@ body {
   background-image: url("./assets/lotus.jpg");
 }
 
-  h1 {
+nav{
+  background-color: pink;
+  color: white;
+  font-family: 'Bellefair', serif;
+  font-size: 20px;
+
+  img {
+    max-height: 75px;
+    max-width: 75px;
+  }
+  .nav-link{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+
+h1 {
   font-family: 'Bellefair', serif;
   font-size: 50px;
   letter-spacing: 6px;
