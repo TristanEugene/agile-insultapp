@@ -58,4 +58,17 @@ h2.text-center {
 #dailyinsult {
   padding-top: 20px; }
 
+nav {
+  background-color: pink;
+  color: white;
+  font-family: 'Bellefair', serif;
+  font-size: 20px; }
+  nav img {
+    max-height: 75px;
+    max-width: 75px; }
+  nav .nav-link {
+    color: white;
+    font-size: 25px;
+    font-weight: bold; }
+
 /*# sourceMappingURL=mainStyle.css.map */
