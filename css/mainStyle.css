@@ -1,6 +1,5 @@
 body {
-  background: #eeaeca;
-  background: linear-gradient(180deg, #eeaeca 0%, #e1b0ce 0%, #eaafcb 3%, #b0b8df 17%, #d0b2d4 30%, #d6b1d2 37%, #c2b4d9 55%, #b1b7df 63%, #aeb8e0 66%, #b3b6de 71%, #78556f 76%, #a8b8e2 79%, #a1b9e5 84%, #94bbe9 99%); }
+  background-image: url("./assets/lotus.jpg"); }
 
 h1 {
   font-family: 'Bellefair', serif;
@@ -19,12 +18,13 @@ h2.text-center {
   margin-bottom: 30px;
   padding-left: 30px;
   padding-right: 30px;
+  color: #ff268f;
   font-family: 'Russo One', sans-serif;
   font-size: 42px;
   letter-spacing: 6px;
   width: auto;
   height: auto;
-  background: rgba(85, 98, 143, 0.3);
+  background: rgba(85, 98, 143, 0.1);
   border-radius: 8px; }
 
 .copyright {
