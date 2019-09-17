@@ -5,10 +5,13 @@ fetch("https://lakerolmaker-insult-generator-v1.p.rapidapi.com/?mode=random", {
         "x-rapidapi-key": "b1dcdd3f4emshdf12f6eaacebbd3p1e8e38jsnd8b135cf0b2b"
     }
 })
-    .then(response => {
+    .then(function (response) {
         console.log(response);
+        return response.text();
+
     })
-    .then(data => {
+    .then(function (data) {
         console.log(data);
+        document.getElementById("insult").innerText=data;
     });
 
