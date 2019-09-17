@@ -13,7 +13,7 @@ request.onreadystatechange = function () {
 request.send();
 */
 window.onload=function() {
-    const proxy = "https://git.heroku.com/safe-lowlands-88473.git";
+    const proxy = "https://git.heroku.com/safe-lowlands-88473.git/";
     const url = "https://insult.mattbas.org/api/insult";
     fetch(proxy + url)
     .then(response => response.json())
