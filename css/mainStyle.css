@@ -13,25 +13,15 @@ h2.text-center {
   height: 300px; }
 
 .parallax {
-  background-color: white;
-  background-image: url("../assets/background1.jpg");
-  height: 100%;
-  /* Create the parallax scrolling effect */
+  height: 600px;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  /*following just for demo purposes to add height and top padding*/
-  height: 300vh;
-  padding-top: 100vh; }
+  background-size: cover; }
 
-.parallax-curtain {
-  height: 100vh;
-  background: rgba(255, 255, 255, 0.5); }
+#insultparallax {
+  background-image: url("../assets/background1.jpg"); }
 
-/*#insultparallax {
-  background-image: url("../assets/background1.jpg");
-}*/
 #aboutparallax {
   background-image: url("../assets/background2.jpg"); }
 
@@ -64,16 +54,6 @@ h2.text-center {
   padding-right: 30px;
   padding-top: 20px;
   padding-bottom: 20px; }
-
-.left {
-  width: 60%;
-  height: 250px;
-  background: red; }
-
-.right {
-  width: 80%;
-  height: 250px;
-  background: red; }
 
 .insult-card {
   margin: auto;
@@ -114,6 +94,23 @@ h2.text-center {
   font-size: 18px;
   letter-spacing: 1.5px; }
 
+.left {
+  width: 60%;
+  height: 250px;
+  background: red; }
+
+.right {
+  width: 75%;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-right: 20px;
+  font-family: 'Bellefair', serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  min-height: auto;
+  max-width: auto; }
+
 nav {
   background-color: pink;
   color: white;
@@ -130,5 +127,8 @@ nav {
 .centerSign {
   margin-top: 50px;
   background-color: transparent; }
+
+.background {
+  background-color: rgba(255, 255, 255, 0.47); }
 
 /*# sourceMappingURL=mainStyle.css.map */
