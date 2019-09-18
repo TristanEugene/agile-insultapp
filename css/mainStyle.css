@@ -7,10 +7,9 @@ h1 {
   padding-bottom: 60px; }
 
 h2.text-center {
-  padding-top: 70px;
   alignment: center;
   width: 400px;
-  height: 300px; }
+  margin: 50px; }
 
 .parallax {
   height: 600px;
@@ -36,7 +35,6 @@ h2.text-center {
   letter-spacing: 4px;
   width: auto;
   height: auto;
-  background: rgba(85, 98, 143, 0.1);
   border-radius: 8px; }
 
 .copyright {
@@ -67,7 +65,8 @@ h2.text-center {
 
 .insult-card {
   margin: auto;
-  float: none; }
+  float: none;
+  background-color: rgba(231, 231, 231, 0.49); }
 
 .subscribe {
   padding-top: 50px;
@@ -121,7 +120,7 @@ nav {
   margin-top: 50px;
   background-color: transparent; }
 
-.background {
-  background-color: rgba(255, 255, 255, 0.47); }
+.insult-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); }
 
 /*# sourceMappingURL=mainStyle.css.map */
