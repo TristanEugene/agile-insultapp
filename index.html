@@ -31,9 +31,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Insult App</title>
 
+    <link rel="stylesheet" href="reset.css">
     <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
-    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="css/mainStyle.css">
     <link href="https://fonts.googleapis.com/css?family=Bellefair&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
@@ -88,20 +88,30 @@
 
     <section>
         <div class="row d-flex flex-column">
-            <div class="insult-card rounded" style="">
+            <div class="insult-card rounded" style="" id="row">
                 <div class="insults">
                     <h2 class="text-center" id="insult"></h2>
                 </div>
+            </div>
+        </div>
             </div>
         </div>
     </section>
 
     <section class="row d-flex flex-column m-auto">
         <div class="text-center">
-            <div class=subscribe>
-                <label for="input"></label>
-                <input id="input" name="E-mail" placeholder="E-mail" type="text"/>
-                <button id="submitbutton" type="button">Subscribe</button>
+
+            <!-- Mailchimp mail form -->
+            <div id="mc_embed_signup">
+                <form action="https://gmail.us4.list-manage.com/subscribe/post?u=13c0805b1c60ce1396757cbbb&amp;id=44203bd6db" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <div id="mc_embed_signup_scroll">
+                       <!-- <label for="input">Subscribe</label> -->
+                        <input type="email" value="" name="EMAIL" class="email" id="input" placeholder="email address" required>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_13c0805b1c60ce1396757cbbb_44203bd6db" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="submitbutton" class="button"></div>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
@@ -116,6 +126,7 @@
 </footer>
 
 
+<script src="assets/Widgets.js"></script>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
