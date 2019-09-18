@@ -37,6 +37,8 @@
     <link rel="stylesheet" href="css/mainStyle.css">
     <link href="https://fonts.googleapis.com/css?family=Bellefair&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lexend+Mega&display=swap" rel="stylesheet">
+
 
 
 </head>
@@ -50,7 +52,7 @@
         <button class="navbar-toggler navbar-dark" data-toggle="collapse" data-target="#collapse_target">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <a class="navbar-brand"><img src="./assets/trumphair.png"> </a>
+        <a class="navbar-brand"><img src="./assets/trumphair.png"></a>
         <span class="navbar-text">One insult at a time</span>
         <div class="collapse navbar-collapse justify-content-end" id="collapse_target" >
             <ul class="navbar-nav">
@@ -61,14 +63,20 @@
         </div>
     </nav>
 
-    <div class="centerSign flex-column">
-      <img class="fuckoffLogo mx-auto d-block" src="./assets/fuckoff.png" width="50px" height="75px">
-    </div>
-
     <section>
+        <div class="centerSign flex-column">
+          <img class="fuckoffLogo mx-auto d-block" src="./assets/fuckoff.png" width="50px" height="75px" alt="">
+        </div>
+    </section>
+
+    <section class="header">
         <div class="row d-flex flex-column">
             <h1 class="text-center pt-5 pt-4">Make The World Great Again</h1>
         </div>
+    </section>
+
+    <section>
+        <div class="parallax" id="insultparallax"></div>
     </section>
 
     <section>
@@ -81,7 +89,7 @@
         <div class="row d-flex flex-column">
             <div class="insult-card" style="">
                 <div class="insults">
-                    <h2 class="text-center"id="insult"></h2>
+                    <h2 class="text-center" id="insult"></h2>
                 </div>
             </div>
         </div>
@@ -100,9 +108,7 @@
     <footer class="site-footer">
         <div id="footer-content">
             <p class="copyright">© 2019
-
-                <!-- href: link invoegen -->
-                <a href=". . . ">Insult App</a>
+                <a href="index.html">Insult App</a>
             </p>
             <p class="API">
                 <!-- href: link invoegen -->
