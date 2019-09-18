@@ -32,10 +32,38 @@ nav {
   min-height: 250px;
 }
 
-footer{
-  background-color: red;
-  position: fixed;
-  bottom: 0;
+footer {
+  position: absolute;
+  margin-top: 30px;
+  background-color: rgba(193, 194, 221, 0.49);
   width: 100%;
-  height: 2.5rem;
+
+  .copyright {
+    margin-top: 27px;
+    margin-left: 5px;
+    float: left;
+    font-family: 'Bellefair', serif;
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .name {
+    color: #F1901E;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    float: left;
+    font-family: 'Bellefair', serif;
+    letter-spacing: 2px;
+  }
+
+  .api {
+    color: #F1901E;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Bellefair', serif;
+    letter-spacing: 2px;
+  }
 }
+

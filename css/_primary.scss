@@ -1,3 +1,7 @@
+body, html {
+  overflow-x: hidden;
+}
+
 h1 {
   color: #F1901E;
   font-family: 'Bellefair', serif;
@@ -12,8 +16,6 @@ h2.text-center {
   width: 400px;
   margin: 50px;
 }
-
-.col
 
 .parallax {
   height: 600px;
@@ -34,8 +36,6 @@ h2.text-center {
 .insults {
   margin-top: 30px;
   margin-bottom: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
   color: #F1901E;
   font-family: 'Russo One', sans-serif;
   font-size: 42px;
@@ -43,25 +43,6 @@ h2.text-center {
   width: auto;
   height: auto;
   border-radius: 8px;
-}
-
-.copyright {
-  font-family: 'Bellefair', serif;
-  letter-spacing: 2px;
-  float: left;
-  padding-left: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-
-}
-
-.API {
-  font-family: 'Bellefair', serif;
-  letter-spacing: 2px;
-  float: right;
-  padding-right: 30px;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .insult-card {
@@ -76,17 +57,13 @@ h2.text-center {
   padding-bottom: 50px;
 }
 
-.site-footer {
-  padding-top: 10px;
-}
-
 #dailyinsult {
   padding-top: 80px;
   padding-bottom: 60px;
   font-family: 'Bellefair', serif;
   font-size: 35px;
   letter-spacing: 3px;
-  color: #FFC0CB;
+  color: black;
 }
 
 #input {
@@ -119,7 +96,10 @@ h2.text-center {
 .left {
   width: 100%;
   height: 100%;
-  background: red;
+  img{
+    margin-top: 150px;
+    margin-left: 200px;
+  }
 }
 
 .right {
@@ -132,5 +112,4 @@ h2.text-center {
   letter-spacing: 2px;
   line-height: 30px;
   min-height: auto;
-  max-width: auto;
 }
