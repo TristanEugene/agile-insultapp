@@ -12,21 +12,19 @@ fetch("https://lakerolmaker-insult-generator-v1.p.rapidapi.com/?mode=random", {
     })
     .then(function (data) {
         console.log(data);
-        document.getElementById("insult").innerText=data;
+        document.getElementById("insult").innerText = data;
 
     });
 
 
-function createTweet () {
-    let content = document.getElementById("insult");
-    let link = document.createElement('a');
-    link.setAttribute('href', 'https://twitter.com/share');
-    link.setAttribute('class', 'twitter-share-button');
-//link.setAttribute('style', 'margin-top:5px;');
-    link.setAttribute("data-text", "'" + content.innerHTML + "'");
-    link.setAttribute("data-via", "denvycom");
-    link.setAttribute("data-size", "large");
-    document.getElementById("row").appendChild(link);
-    twttr.widgets.load();
-}
-window.onload=createTweet();
+
+ /*let content = document.getElementById("insult").innerHTML;
+ let link = document.createElement('a');
+ link.setAttribute('href', 'https://twitter.com/share');
+ link.setAttribute('class', 'twitter-share-button');
+ link.setAttribute("data-text", "'" + content + "'");
+ link.setAttribute("data-size", "large");
+ document.getElementById("buttonAdd").appendChild(link);
+ twttr.widgets.load();*/
+
+//window.onload=createTweet();
