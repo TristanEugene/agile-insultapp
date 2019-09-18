@@ -1,3 +1,6 @@
+body, html {
+  overflow-x: hidden; }
+
 h1 {
   color: #F1901E;
   font-family: 'Bellefair', serif;
@@ -11,7 +14,6 @@ h2.text-center {
   width: 400px;
   margin: 50px; }
 
-.col
 .parallax {
   height: 600px;
   background-attachment: fixed;
@@ -28,8 +30,6 @@ h2.text-center {
 .insults {
   margin-top: 30px;
   margin-bottom: 30px;
-  padding-left: 30px;
-  padding-right: 30px;
   color: #F1901E;
   font-family: 'Russo One', sans-serif;
   font-size: 42px;
@@ -64,16 +64,13 @@ h2.text-center {
   padding-top: 50px;
   padding-bottom: 50px; }
 
-.site-footer {
-  padding-top: 10px; }
-
 #dailyinsult {
   padding-top: 80px;
   padding-bottom: 60px;
   font-family: 'Bellefair', serif;
   font-size: 35px;
   letter-spacing: 3px;
-  color: #FFC0CB; }
+  color: black; }
 
 #input {
   height: 35px;
@@ -114,8 +111,7 @@ h2.text-center {
   font-size: 24px;
   letter-spacing: 2px;
   line-height: 30px;
-  min-height: auto;
-  max-width: auto; }
+  min-height: auto; }
 
 nav {
   background-color: pink;
