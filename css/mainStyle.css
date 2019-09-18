@@ -143,20 +143,4 @@ footer {
   width: 100%;
   height: 2.5rem; }
 
-#mc-embedded-subscribe-form input[type=checkbox] {
-  display: inline;
-  width: auto;
-  margin-right: 10px; }
-
-#mergeRow-gdpr {
-  margin-top: 20px; }
-
-#mergeRow-gdpr fieldset label {
-  font-weight: normal; }
-
-#mc-embedded-subscribe-form .mc_fieldset {
-  border: none;
-  min-height: 0px;
-  padding-bottom: 0px; }
-
 /*# sourceMappingURL=mainStyle.css.map */
