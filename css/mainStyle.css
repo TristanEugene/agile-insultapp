@@ -112,6 +112,8 @@ nav {
   nav img {
     max-height: 75px;
     max-width: 75px; }
+  nav a:hover {
+    color: #7A8497; }
   nav .nav-link {
     color: white;
     font-size: 25px; }
