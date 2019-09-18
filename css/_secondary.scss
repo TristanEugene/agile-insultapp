@@ -1,4 +1,4 @@
-nav{
+nav {
   background-color: pink;
   color: white;
   font-family: 'Bellefair', serif;
@@ -10,7 +10,11 @@ nav{
     max-width: 75px;
   }
 
-  .nav-link{
+  a:hover {
+    color: #7A8497;
+  }
+
+  .nav-link {
     color: white;
     font-size: 25px;
   }
