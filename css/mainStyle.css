@@ -7,10 +7,9 @@ h1 {
   padding-bottom: 60px; }
 
 h2.text-center {
-  padding-top: 70px;
   alignment: center;
   width: 400px;
-  height: 300px; }
+  margin: 50px; }
 
 .parallax {
   height: 600px;
@@ -36,7 +35,6 @@ h2.text-center {
   letter-spacing: 4px;
   width: auto;
   height: auto;
-  background: rgba(85, 98, 143, 0.1);
   border-radius: 8px; }
 
 .copyright {
@@ -55,19 +53,10 @@ h2.text-center {
   padding-top: 20px;
   padding-bottom: 20px; }
 
-.left {
-  width: 60%;
-  height: 250px;
-  background: red; }
-
-.right {
-  width: 80%;
-  height: 250px;
-  background: red; }
-
 .insult-card {
   margin: auto;
-  float: none; }
+  float: none;
+  background-color: rgba(231, 231, 231, 0.49); }
 
 .subscribe {
   padding-top: 50px;
@@ -104,6 +93,23 @@ h2.text-center {
   font-size: 18px;
   letter-spacing: 1.5px; }
 
+.left {
+  width: 60%;
+  height: 250px;
+  background: red; }
+
+.right {
+  width: 75%;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-right: 20px;
+  font-family: 'Bellefair', serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  min-height: auto;
+  max-width: auto; }
+
 nav {
   background-color: pink;
   color: white;
@@ -113,6 +119,8 @@ nav {
   nav img {
     max-height: 75px;
     max-width: 75px; }
+  nav a:hover {
+    color: #7A8497; }
   nav .nav-link {
     color: white;
     font-size: 25px; }
@@ -121,8 +129,19 @@ nav {
   margin-top: 50px;
   background-color: transparent; }
 
-.background {
-  background-color: rgba(255, 255, 255, 0.47); }
+.rounded {
+  border-radius: 0.5rem !important; }
+
+.insult-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-height: 250px; }
+
+footer {
+  background-color: red;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem; }
 
 #mc-embedded-subscribe-form input[type=checkbox] {
   display: inline;
