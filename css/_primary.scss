@@ -15,16 +15,27 @@ h2.text-center {
 }
 
 .parallax {
-  height: 600px;
+  background-color: white;
+  background-image: url("../assets/background1.jpg");
+  height: 100%;
+  /* Create the parallax scrolling effect */
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  /*following just for demo purposes to add height and top padding*/
+  height:300vh;
+  padding-top:100vh;
 }
 
-#insultparallax {
-  background-image: url("../assets/background1.jpg");
+.parallax-curtain{
+  height:100vh;
+  background:rgba(255,255,255,0.5);
 }
+
+/*#insultparallax {
+  background-image: url("../assets/background1.jpg");
+}*/
 
 #aboutparallax {
   background-image: url("../assets/background2.jpg");
