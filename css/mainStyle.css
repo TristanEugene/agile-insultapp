@@ -14,7 +14,6 @@ h2.text-center {
   width: 400px;
   margin: 50px; }
 
-.col
 .parallax {
   height: 600px;
   background-attachment: fixed;
@@ -71,7 +70,7 @@ h2.text-center {
   font-family: 'Bellefair', serif;
   font-size: 35px;
   letter-spacing: 3px;
-  color: #FFC0CB; }
+  color: black; }
 
 #input {
   height: 35px;
