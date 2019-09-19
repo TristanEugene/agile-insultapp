@@ -1,7 +1,15 @@
 body, html {
   background-image: url("../assets/background1.jpg");
   background-position: center center;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  overflow-x: hidden; }
+
+#about {
+  background-image: url("../assets/background-background-image-clouds-1054289.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow-x: hidden; }
 
 h1 {
   color: #F1901E;
@@ -46,7 +54,7 @@ h2.text-center {
   margin: auto;
   float: none;
   background-color: rgba(231, 231, 231, 0.49);
-  margin-bottom: 50px; }
+  margin-bottom: 15px; }
 
 .subscribe {
   padding-top: 50px;
@@ -192,5 +200,8 @@ footer {
       color: #F1901E; }
     footer .icons .iconP:hover {
       color: #F1901E; }
+
+.about-head {
+  background-color: rgba(245, 245, 245, 0.79); }
 
 /*# sourceMappingURL=mainStyle.css.map */
