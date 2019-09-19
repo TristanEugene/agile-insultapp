@@ -14,7 +14,6 @@ body,html {
 }
 
 #about{
-
     background-image: url("../assets/background-background-image-clouds-1054289.jpg");
     background-repeat: no-repeat;
     background-position: center center;
@@ -37,7 +36,6 @@ h2.text-center {
   margin: 50px;
 }
 
-
 .insults {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -59,7 +57,6 @@ h2.text-center {
 
 .subscribe {
   padding-top: 20px;
-
 }
 
 #submitbuttonAbout{
@@ -78,6 +75,7 @@ h2.text-center {
   letter-spacing: 1.5px;
   background-color: #F1901E;
 }
+
 #submitbuttonAbout:hover{
   background-color: #FFC0CB;
 }
@@ -132,6 +130,10 @@ h2.text-center {
   }
 }
 
+.button-overlay{
+  display: flex;
+}
+
 .right {
   width: 75%;
   padding-top: 45px;
@@ -149,13 +151,3 @@ h2.text-center {
 .about-heading{
   margin-top: 20px;
  }
-
-.twitter-share-button {
-  margin-right: 5px;
-  margin-top: 20px;
-}
-
-.fb-share-button {
-  margin-left: 5px;
-  margin-bottom: 40px;
-}
