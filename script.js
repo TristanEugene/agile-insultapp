@@ -6,25 +6,10 @@ fetch("https://lakerolmaker-insult-generator-v1.p.rapidapi.com/?mode=random", {
     }
 })
     .then(function (response) {
-        console.log(response);
         return response.text();
 
     })
     .then(function (data) {
-        console.log(data);
         document.getElementById("insult").innerText = data;
 
     });
-
-
-
-
- /*let link = document.createElement('a');
- link.setAttribute('href', 'https://twitter.com/share');
- link.setAttribute('class', 'twitter-share-button');
- link.setAttribute("data-text", "'" + content + "'");
- link.setAttribute("data-size", "large");
- document.getElementById("buttonAdd").appendChild(link);
- twttr.widgets.load();*/
-
-//window.onload=createTweet();
