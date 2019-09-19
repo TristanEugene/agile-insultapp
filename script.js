@@ -18,8 +18,8 @@ fetch("https://lakerolmaker-insult-generator-v1.p.rapidapi.com/?mode=random", {
 
 
 
- /*let content = document.getElementById("insult").innerHTML;
- let link = document.createElement('a');
+
+ /*let link = document.createElement('a');
  link.setAttribute('href', 'https://twitter.com/share');
  link.setAttribute('class', 'twitter-share-button');
  link.setAttribute("data-text", "'" + content + "'");
