@@ -5,18 +5,14 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-148191248-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-
-        function gtag() {
-            dataLayer.push(arguments);
-        }
-
+        function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'UA-148191248-1');
     </script>
 
     <meta charset="UTF-8">
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Insult App</title>
 
     <link href="reset.css" rel="stylesheet">
@@ -28,6 +24,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
 </head>
+
 
 <body>
 
@@ -46,17 +43,20 @@
         </div>
     </nav>
 
-    <div class="container">
+    <div class="head">
         <section class="centerSign flex-column bg-transparent">
+            <img class="fuckoffLogo mx-auto d-block" src="./assets/fuckoffgrey.png" width="50px" height="75px" alt="">
 
             <img alt="" class="fuckoffLogo mx-auto d-block" height="75px" src="./assets/fuckoffgrey.png" width="50px">
         </section>
 
-        <section class="header">
-            <div class="row container d-flex flex-column">
-                <h1 class="text-center pt-5 pt-4">Make The World Great Again</h1>
-            </div>
+        <section class="header flex-column">
+                <h1 class="text-center pt-5 pt-5">Make The World Great Again</h1>
         </section>
+    </div>
+
+
+    <div class="container">
 
         <section class="row d-flex flex-column m-auto">
             <div class="text-center">
@@ -92,6 +92,31 @@
             </div>
         </section>
 
+    <section>
+        <div class="row d-flex flex-column"  id="buttonAdd">
+            <div class="insult-card rounded" style="">
+                <div class="insults">
+                    <h2 class="text-center" id="insult"></h2>
+                </div>
+                <a class="twitter-share-button"
+                   href="https://twitter.com/intent/tweet"
+                   data-size="large"
+                   data-text="I saw this quote and thought of you!"
+                   data-url="https://anastasiyavyp.github.io/agile-insultapp/index.html"
+                   data-hashtags="Trump,Presidential,Insult"
+                   data-related="Trump,Motivational,Insult">
+                    Tweet
+                </a>
+
+                <!-- <a class="twitter-share-button"
+                    href="https://twitter.com/intent/tweet?text=Hello%20world"
+                    data-text="test"
+                    data-size="large">
+                     Tweet</a>
+                     -->
+            </div>
+        </div>
+    </section>
         <section>
             <div class="row d-flex flex-column" id="buttonAdd">
                 <div class="insult-card rounded" style="">
@@ -132,9 +157,28 @@
             <a class="fa fa-linkedin iconL" href="https://www.linkedin.com/" target="_blank"></a>
             <a class="fa fa-pinterest iconP" href="https://nl.pinterest.com/" target="_blank"></a>
         </div>
+        <div class="app">
+        <a class="name" href="index.html"> Insult App </a>
+        <p class="copyright"> © 2019 </p>
+         <a  class="api" href="https://lakerolmaker-insult-generator-v1.p.rapidapi.com/">Insult generator API</a>
+        </div>
+
     </footer>
 
 
+<script src="assets/widgets.js"></script>
+<script>
+    twttr.widgets.createShareButton(
+    "https:\/\/dev.twitter.com\/web\/tweet-button",
+    document.getElementById("buttonAdd"),
+    {
+        size: "large",
+        text: "custom share text",
+        hashtags: "example,demo",
+        via: "twitterdev",
+        related: "twitterapi,twitter"
+    }
+);
 <script id="twitter-wjs" src="assets/widgets.js"></script>
 <!--
 <script>window.twttr = (function(d, s, id) {
@@ -154,6 +198,10 @@
         return t;
 }(document, "script", "twitter-wjs"));
 </script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v4.0"></script>
 -->
 <script crossorigin="anonymous" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>

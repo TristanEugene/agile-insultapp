@@ -20,8 +20,15 @@ nav {
   }
 }
 
+.head{
+  background-color: rgba(255, 255, 255, 0.7);
+  position: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
 .centerSign{
-  margin-top: 50px;
+  padding-top: 20px;
   background-color: transparent;
 }
 .rounded {
@@ -59,19 +66,17 @@ footer {
 
   .api {
     color: #F1901E;
-    margin-right: 20px;
-    margin-top: 20px;
     float: right;
     font-family: 'Bellefair', serif;
     letter-spacing: 2px;
+    margin-top: 20px;
   }
   .icons{
-    position: relative;
     margin-top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-left: 300px;
+
 
     .iconF{
       margin-right: 20px;
