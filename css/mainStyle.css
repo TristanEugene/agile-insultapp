@@ -126,6 +126,9 @@ h2.text-center {
     margin-top: 150px;
     margin-left: 150px; }
 
+.button-overlay {
+  display: flex; }
+
 .right {
   width: 75%;
   padding-top: 45px;
