@@ -1,3 +1,7 @@
+@media (max-width: 480px) {
+  #insult {
+    font-size: 25px;
+    text-align: center; } }
 body, html {
   background-image: url("../assets/background1.jpg");
   background-position: center center;
@@ -5,7 +9,7 @@ body, html {
   overflow-x: hidden; }
 
 #about {
-  background-image: url("../assets/background-background-image-clouds-1054289.jpg");
+  background-image: url("../assets/2.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -115,8 +119,13 @@ h2.text-center {
   line-height: 30px;
   min-height: auto; }
 
+.twitter-share-button {
+  margin-right: 5px;
+  margin-top: 20px; }
+
 .fb-share-button {
-  margin-bottom: 10px; }
+  margin-left: 5px;
+  margin-bottom: 40px; }
 
 nav {
   background-color: pink;
@@ -207,8 +216,5 @@ footer {
       color: #F1901E; }
     footer .icons .iconP:hover {
       color: #F1901E; }
-
-.about-head {
-  background-color: rgba(245, 245, 245, 0.79); }
 
 /*# sourceMappingURL=mainStyle.css.map */
