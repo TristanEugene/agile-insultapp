@@ -70,6 +70,11 @@ h2.text-center {
   padding-bottom: 50px;
 }
 
+#submitbutton.button:hover {
+  background-color: #F9BC1E;
+  color: #8787A2;
+}
+
 #dailyinsult {
   padding-top: 80px;
   padding-bottom: 60px;
@@ -125,4 +130,11 @@ h2.text-center {
   letter-spacing: 2px;
   line-height: 30px;
   min-height: auto;
+}
+
+.twitter-share-button {
+}
+
+.fb-share-button {
+  margin-bottom: 10px;
 }
