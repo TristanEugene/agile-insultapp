@@ -67,6 +67,10 @@ h2.text-center {
 #submitbuttonAbout:hover {
   background-color: #FFC0CB; }
 
+#submitbutton.button:hover {
+  background-color: #F9BC1E;
+  color: #8787A2; }
+
 #dailyinsult {
   padding-top: 80px;
   padding-bottom: 60px;
@@ -123,6 +127,14 @@ h2.text-center {
 
 .about-heading {
   margin-top: 20px; }
+
+.twitter-share-button {
+  margin-right: 5px;
+  margin-top: 20px; }
+
+.fb-share-button {
+  margin-left: 5px;
+  margin-bottom: 40px; }
 
 nav {
   background-color: pink;
