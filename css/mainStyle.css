@@ -1,73 +1,207 @@
-/*
-Error: Invalid CSS after "  h1": expected "{", was "}"
-        on line 119 of _secondary.scss
-        from line 2 of mainStyle.scss
+body, html {
+  background-image: url("../assets/background1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow-x: hidden; }
 
-114:   }
-115: }
-116: .about-head{
-117:   background-color: rgba(245, 245, 245, 0.79);
-118:   h1
-119: }
+#about {
+  background-image: url("../assets/background-background-image-clouds-1054289.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  overflow-x: hidden; }
 
-Backtrace:
-_secondary.scss:119
-mainStyle.scss:2
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1308:in `expected'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1238:in `expected'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:1233:in `tok!'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:688:in `block'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:758:in `declaration_or_ruleset'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:708:in `block_child'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:689:in `block'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:681:in `ruleset'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:707:in `block_child'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:700:in `block_contents'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:137:in `stylesheet'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/scss/parser.rb:41:in `parse'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:414:in `_to_tree'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:321:in `to_tree'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:323:in `block in visit_import'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `block in with_import'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:88:in `with_import'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:322:in `visit_import'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `each'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/plugin.rb:82:in `update_stylesheets'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:338:in `watch_or_update'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:51:in `process_result'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
-/var/lib/gems/2.5.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
-/usr/local/bin/sass:23:in `load'
-/usr/local/bin/sass:23:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"  h1\": expected \"{\", was \"}\"\A         on line 119 of _secondary.scss\A         from line 2 of mainStyle.scss\A \A 114:   }\A 115: }\A 116: .about-head{\A 117:   background-color: rgba(245, 245, 245, 0.79);\A 118:   h1\A 119: }"; }
+h1 {
+  color: #F1901E;
+  font-family: 'Bellefair', serif;
+  font-size: 50px;
+  letter-spacing: 6px;
+  padding-top: 30px;
+  padding-bottom: 60px; }
+
+h2.text-center {
+  alignment: center;
+  width: 400px;
+  margin: 50px; }
+
+/*.parallax {
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#insultparallax {
+  background-image: url("../assets/background1.jpg");
+}
+
+#aboutparallax {
+  background-image: url("../assets/background2.jpg");
+}*/
+.insults {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: #F1901E;
+  font-family: 'Russo One', sans-serif;
+  font-size: 42px;
+  letter-spacing: 4px;
+  width: auto;
+  height: auto;
+  border-radius: 8px; }
+
+.insult-card {
+  margin: auto;
+  float: none;
+  background-color: rgba(231, 231, 231, 0.49);
+  margin-bottom: 15px; }
+
+.subscribe {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
+#dailyinsult {
+  padding-top: 80px;
+  padding-bottom: 60px;
+  font-family: 'Bellefair', serif;
+  font-size: 35px;
+  letter-spacing: 3px;
+  color: #8686A4; }
+
+#input {
+  height: 35px;
+  padding-left: 4px;
+  padding-top: 3.5px;
+  font-family: 'Bellefair', serif;
+  font-size: 18px;
+  border-radius: 6px;
+  box-shadow: none; }
+
+#submitbutton {
+  margin-left: 1.5px;
+  margin-top: 3px;
+  margin-bottom: 30px;
+  min-width: 130px;
+  border-radius: 6px;
+  background-color: #FFC0CB;
+  border: none;
+  color: #8686A4;
+  font-family: 'Bellefair', serif;
+  padding-top: 9px;
+  padding-bottom: 6px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1.5px; }
+
+.left {
+  width: 100%;
+  height: 100%; }
+  .left img {
+    margin-top: 150px;
+    margin-left: 200px; }
+
+.right {
+  width: 75%;
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-right: 20px;
+  font-family: 'Bellefair', serif;
+  font-size: 24px;
+  letter-spacing: 2px;
+  line-height: 30px;
+  min-height: auto; }
+
+nav {
+  background-color: pink;
+  color: white;
+  font-family: 'Bellefair', serif;
+  font-size: 25px;
+  letter-spacing: 2px; }
+  nav img {
+    max-height: 75px;
+    max-width: 75px; }
+  nav a:hover {
+    color: #7A8497; }
+  nav .nav-link {
+    color: white;
+    font-size: 25px; }
+
+.head {
+  background-color: rgba(255, 255, 255, 0.7);
+  position: center;
+  text-align: center;
+  margin-top: 20px; }
+
+.centerSign {
+  padding-top: 20px;
+  background-color: transparent; }
+
+.rounded {
+  border-radius: 0.5rem !important; }
+
+.insult-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-height: 250px; }
+
+footer {
+  position: absolute;
+  margin-top: 30px;
+  background-color: #e7e7e7;
+  width: 100%; }
+  footer .copyright {
+    margin-top: 27px;
+    margin-left: 5px;
+    float: left;
+    font-family: 'Bellefair', serif;
+    font-size: 10px;
+    letter-spacing: 2px; }
+  footer .name {
+    color: #F1901E;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    float: left;
+    font-family: 'Bellefair', serif;
+    letter-spacing: 2px; }
+  footer .api {
+    color: #F1901E;
+    float: right;
+    font-family: 'Bellefair', serif;
+    letter-spacing: 2px;
+    margin-top: 20px; }
+  footer .icons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    footer .icons .iconF {
+      margin-right: 20px;
+      font-size: 25px;
+      width: 20px;
+      text-align: center;
+      text-decoration: none;
+      color: #FFC0CB; }
+    footer .icons .iconL {
+      margin-right: 20px;
+      font-size: 25px;
+      width: 20px;
+      text-align: center;
+      text-decoration: none;
+      color: #FFC0CB; }
+    footer .icons .iconP {
+      font-size: 25px;
+      width: 20px;
+      text-align: center;
+      text-decoration: none;
+      color: #FFC0CB; }
+    footer .icons .iconF:hover {
+      color: #F1901E; }
+    footer .icons .iconL:hover {
+      color: #F1901E; }
+    footer .icons .iconP:hover {
+      color: #F1901E; }
+
+.about-head {
+  background-color: rgba(245, 245, 245, 0.79); }
+
+/*# sourceMappingURL=mainStyle.css.map */
