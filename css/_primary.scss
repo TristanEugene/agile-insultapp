@@ -37,6 +37,21 @@ h2.text-center {
   margin: 50px;
 }
 
+/*.parallax {
+  height: 600px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#insultparallax {
+  background-image: url("../assets/background1.jpg");
+}
+
+#aboutparallax {
+  background-image: url("../assets/background2.jpg");
+}*/
 
 .insults {
   margin-top: 30px;
@@ -80,6 +95,11 @@ h2.text-center {
 }
 #submitbuttonAbout:hover{
   background-color: #FFC0CB;
+}
+
+#submitbutton.button:hover {
+  background-color: #F9BC1E;
+  color: #8787A2;
 }
 
 #dailyinsult {
@@ -144,3 +164,13 @@ h2.text-center {
 .about-heading{
   margin-top: 20px;
  }
+
+.twitter-share-button {
+  margin-right: 5px;
+  margin-top: 20px;
+}
+
+.fb-share-button {
+  margin-left: 5px;
+  margin-bottom: 40px;
+}
