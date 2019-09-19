@@ -1,5 +1,7 @@
 body, html {
-  overflow-x: hidden;
+  background-image: url("../assets/background1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
 }
 
 h1 {
@@ -17,7 +19,7 @@ h2.text-center {
   margin: 50px;
 }
 
-.parallax {
+/*.parallax {
   height: 600px;
   background-attachment: fixed;
   background-position: center;
@@ -31,7 +33,7 @@ h2.text-center {
 
 #aboutparallax {
   background-image: url("../assets/background2.jpg");
-}
+}*/
 
 .insults {
   margin-top: 30px;
@@ -63,7 +65,7 @@ h2.text-center {
   font-family: 'Bellefair', serif;
   font-size: 35px;
   letter-spacing: 3px;
-  color: black;
+  color: #8686A4;
 }
 
 #input {
@@ -84,7 +86,7 @@ h2.text-center {
   border-radius: 6px;
   background-color: #FFC0CB;
   border: none;
-  color: #7A8497;
+  color: #8686A4;
   font-family: 'Bellefair', serif;
   padding-top: 9px;
   padding-bottom: 6px;
