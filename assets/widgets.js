@@ -4,6 +4,7 @@ window.twttr = (function (d, s, id) {
     if (d.getElementById(id)) return t;
     js = d.createElement(s);
     js.id = id;
+    js.async=true;
     js.src = "https://platform.twitter.com/widgets.js";
     fjs.parentNode.insertBefore(js, fjs);
 
@@ -14,11 +15,10 @@ window.twttr = (function (d, s, id) {
 
     return t;
 }(document, "script", "twitter-wjs"));
-
+/*
 $(document).ready(function () {
     let content = document.getElementById("insult").innerHTML;
     let link = document.getElementById("share");
     twttr.widgets.load(link.setAttribute("data-text", "'" + content + "'"));
-
-});
+});*/
 
