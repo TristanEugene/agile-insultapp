@@ -14,11 +14,10 @@ window.twttr = (function (d, s, id) {
 
     return t;
 }(document, "script", "twitter-wjs"));
-
+/*
 $(document).ready(function () {
     let content = document.getElementById("insult").innerHTML;
     let link = document.getElementById("share");
     twttr.widgets.load(link.setAttribute("data-text", "'" + content + "'"));
-
-});
+});*/
 
