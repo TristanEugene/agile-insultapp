@@ -1,8 +1,19 @@
-body, html {
+body,html {
   background-image: url("../assets/background1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
+
+#about{
+
+    background-image: url("../assets/background-background-image-clouds-1054289.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
 
 h1 {
   color: #F1901E;
