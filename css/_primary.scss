@@ -2,6 +2,7 @@ body, html {
   background-image: url("../assets/background1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
+  overflow-x: hidden;
 }
 
 h1 {
@@ -56,7 +57,7 @@ h2.text-center {
 
 .subscribe {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
 }
 
 #dailyinsult {
